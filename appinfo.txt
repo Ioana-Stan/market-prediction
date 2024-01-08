@@ -1,1 +1,54 @@
-This file contains the information regarding the application.
+Market Prediction Application
+
+
+Table of Contents
+1.	Description
+2.	Installation
+3.	Usage
+4.	Contributing
+5.	License
+
+
+1.	Description
+
+This repository contains the code for the Market Prediction application. This application aims to predict some market fluctuations using machine learning models. 
+
+2.	Installation
+
+To set up the project locally follow these steps:
+1.	Clone the repository.
+-	Make sure to pick the option suitable for you, or open it using GitHub Desktop
+2.	Navigate to the project directory.
+3.	Install needed dependencies.
+
+
+3.	Usage
+The project structure is as follows:
+app_gui.py – script for creating the graphical user interface   
+app_logic.py – script containing the core logic of the application
+appinfo.txt – information about the application
+data_processing.py – script for loading, cleaning and transforming the data
+database.csv – CSV file containing data for training the machine-learning model
+home_page.html – main web-page of the application
+model.py – script for creating, training and evaluating the performance of the machine-learning model
+predict.py – script used for making predictions using the trained model
+styles.css -  the main stylesheet for the entire website
+
+! To run the application you must execute the script: “app_gui.py”!
+
+4.	Contributing
+
+In this project, each contribution will be represented by a different branch created by the contributor!
+The ‘main’ branch contains the stable version of the application and must not be modified without permission.
+
+How to Contribute
+1. Fork the repository.
+2. Create a new branch from ‘main’ for your feature or bug fix.
+3. Make changes and commit them with descriptive messages.
+4. Push your branch to your forked repository.
+5. Create a pull request explaining your changes and their purpose.
+
+
+5.	License
+
+This project is licensed under the GNU General Public license.
